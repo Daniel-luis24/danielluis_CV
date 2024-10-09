@@ -1,0 +1,193 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f0f0;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 20px;
+}
+
+.header .profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .profile-photo {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.header .profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #1e90ff;
+    object-fit: cover;
+}
+
+.header .info h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header .info .role {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.header .contact ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .contact ul li {
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+
+.header .contact ul li a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.header .contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section */
+.about {
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    font-size: 1.6em;
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience h2 {
+    font-size: 1.6em;
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.experience .job {
+    margin-bottom: 30px;
+}
+
+.experience .job h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.experience .job p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.experience .job ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.experience .job ul li {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Education Section */
+.education {
+    margin-bottom: 40px;
+}
+
+.education h2 {
+    font-size: 1.6em;
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.education .degree {
+    margin-bottom: 20px;
+}
+
+.education .degree h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.education .degree p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Skills Section */
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills h2 {
+    font-size: 1.6em;
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+/* Projects Section */
